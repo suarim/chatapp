@@ -12,5 +12,6 @@ const generatetoken=async (userid,res)=>{
         
     })
     console.log(token) 
+    return token
 }
 export default generatetoken
